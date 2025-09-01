@@ -28,7 +28,7 @@ const entries = [
     color: 'black',
     faicon: 'skull-crossbones',
     datetime: '2024-07-01 12:00',
-    title: 'Justices rule Trump has some immunity from prosecution',
+    title: 'SCOTUS grants presidential immunity',
     image: {
       link: 'https://www.scotusblog.com/2024/07/justices-rule-trump-has-some-immunity-from-prosecution/',
       src: 'https://www.scotusblog.com/wp-content/uploads/2024/07/supremecourt2-scaled.jpg?resize=1024,680',
