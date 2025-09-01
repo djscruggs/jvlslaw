@@ -4,8 +4,8 @@ const entries = [
   {
     id: 'discourse-closes',
     categories: ['media'],
-    color: 'green',
-    faicon: 'cat',
+    color: 'black',
+    faicon: 'skull-crossbones',
     datetime: '2025-09-01 15:15',
     title: 'Discourse Magazine closes',
     image: {
@@ -19,6 +19,27 @@ const entries = [
       {
         href: 'https://www.tracinskiletter.com/p/dont-let-it-go',
         linkText: 'Don\'t Let It Go',
+      },
+    ],
+  },
+  {
+    id: 'discourse-closes',
+    categories: ['media'],
+    color: 'black',
+    faicon: 'skull-crossbones',
+    datetime: '2024-02-29 12:00',
+    title: 'This Is How Democracy Dies',
+    image: {
+      link: 'https://archive.ph/7dnV1',
+      src: 'https://dg0nwpjirsscfc.archive.ph/7dnV1/fb0c9a2d9bc2c6e789af01fa1841f390bfe66b26.webp',
+      alt: 'Logo the Bulwak',
+      caption: 'The Bulwark',
+    },
+    body: "McConnell hates Trump. McConnell was never MAGA. McConnell is not in favor of authoritarianism. But none of that mattered because Trump was able to align McConnell’s primary goals with his own. And so in the end, McConnell became Trump’s tool just as surely as if he’d been a toadying true-believer.",
+    links: [
+      {
+        href: 'https://arc.net/l/quote/myfeydlu',
+        linkText: 'This Is How Democracy Dies',
       },
     ],
   },
