@@ -1,63 +1,35 @@
-const header = 'Welcome to this wonderful example timeline.';
-const footer = 'A footer goes here.';
+const header = 'On Feb 29, 2024, Jonathan Last of the Bulwark coined JVL\'s law: Any person or institution not explicitly anti-Trump will become a tool for authoritarianism eventually.';
+const footer = 'This page is not affiliated with the Bulwark. I\'m just a concerned subscriber.';
 const entries = [
   {
-    id: 'cat',
-    categories: ['cat'],
+    id: 'discourse-closes',
+    categories: ['media'],
     color: 'green',
     faicon: 'cat',
-    datetime: '2021-01-01 05:00',
-    title: 'Cats are very good',
+    datetime: '2025-09-01 15:15',
+    title: 'Discourse Magazine closes',
     image: {
-      link: 'http://placekitten.com',
-      src: 'http://placekitten.com/200/300',
-      alt: 'A placeholder kitten',
-      caption: 'Kitten!',
+      link: 'https://www.tracinskiletter.com/p/dont-let-it-go',
+      src: 'https://substackcdn.com/image/fetch/$s_!Yt8m!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa61b176d-0978-41c5-aada-46575fccbe5e_1600x800.jpeg',
+      alt: 'Logo for The Neo-Classical Liberal',
+      caption: 'The Neo-Classical Liberal',
     },
-    body: "The best thing in the universe is a cardboard box. Chirp at birds catasstrophe for meowwww for hiding behind the couch until lured out by a feathery toy for morning beauty routine of licking self sugar, my siamese, stalks me (in a good way), day and night lick the other cats. Pushed the mug off the table shove bum in owner's face like camera lens or tickle my belly at your own peril i will pester for food when you're in the kitchen even if it's salad and grass smells good, licks your face, but hiiiiiiiiii feed me now.",
+    body: "This reflects a dilemma faced by Mercatus more broadly. In recent years, they have put a lot of effort (from which I benefitted) into a “pluralism” agenda, which was supposed to encourage people to find common ground and have productive conversations across the usual partisan divides. It’s not a bad idea, but at a Mercatus pluralism event about this time last year, the looming unreality of it began to sink in. Much of the discussion seemed useful and appropriate—in a world where Donald Trump had no chance of being elected again. And if Kamala Harris were president right now, it would still seem that way. But in a world where the political divide is between democracy and authoritarianism, between freedom and dictatorship, finding “common ground” with authoritarians just becomes a form of surrender.",
     links: [
       {
-        href: 'https://en.wikipedia.org/wiki/Cat',
-        linkText: 'Cat',
+        href: 'https://www.tracinskiletter.com/p/dont-let-it-go',
+        linkText: 'Don\'t Let It Go',
       },
     ],
   },
-  {
-    id: 'dog',
-    categories: ['dog'],
-    color: 'green',
-    faicon: 'dog',
-    datetime: '2021-05-01 23:55',
-    title: 'Puppies are great too',
-    image: {
-      link: 'http://place-puppy.com',
-      src: 'https://place-puppy.com/300x300',
-      alt: 'A placeholder puppy',
-      caption: 'Puppy!',
-    },
-    body: 'Doggo ipsum sub woofer smol wow very biscit aqua doggo pupper dat tungg tho big ol pupper, very jealous pupper mlem heckin angery woofer very jealous pupper. Blep waggy wags long doggo, corgo. Tungg wow such tempt mlem very jealous pupper boofers lotsa pats, snoot smol big ol ruff doge super chub, long doggo heckin good boys and girls h*ck heck. Shoober blop many pats borkf, such treat. Big ol what a nice floof long water shoob wrinkler heck sub woofer, pupper porgo wow very biscit.',
-    links: [
-      {
-        href: 'https://en.wikipedia.org/wiki/Dog',
-        linkText: 'Dog',
-      },
-      {
-        href: 'https://en.wikipedia.org/wiki/Canis',
-        linkText: 'Canis',
-      },
-      {
-        href: 'https://en.wikipedia.org/wiki/Lassie',
-        linkText: 'Lassie',
-      },
-    ],
-  },
+
 ];
 
 // Page details
-const pageTitle = 'Static timeline generator'; // The title of the page that shows in the browser tab
-const pageDescription = 'A super fancy timeline'; // The description of the page for search engines
-const pageAuthor = 'Jane Doe'; // Your name
-const showMirrorLinks = true; // Whether to show links to the Wayback Machine and archive.is mirrors.
+const pageTitle = 'JVL\'s Law in action'; // The title of the page that shows in the browser tab
+const pageDescription = 'On Feb 29, 2024, Jonathan Last of the Bulwark coined JVL\'s law: Any person or institution not explicitly anti-Trump will become a tool for authoritarianism eventually.'; // The description of the page for search engines
+const pageAuthor = 'DJ Scruggs'; // Your name
+const showMirrorLinks = false; // Whether to show links to the Wayback Machine and archive.is mirrors.
 
 // DON'T EDIT BELOW THIS LINE! --------------------------------------------------------------------
 const getFilters = (entries) => {
