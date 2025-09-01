@@ -23,8 +23,8 @@ const entries = [
     ],
   },
     {
-    id: 'discourse-closes',
-    categories: ['media'],
+    id: 'scotus-immunity',
+    categories: ['law'],
     color: 'black',
     faicon: 'skull-crossbones',
     datetime: '2024-07-01 12:00',
@@ -43,12 +43,12 @@ const entries = [
     ],
   },
   {
-    id: 'discourse-closes',
-    categories: ['media'],
+    id: 'mitch-mcconell',
+    categories: ['politics'],
     color: 'black',
     faicon: 'skull-crossbones',
     datetime: '2024-02-29 12:00',
-    title: 'This Is How Democracy Dies',
+    title: 'Mitch McConnell\'s Capitulation',
     image: {
       link: 'https://archive.ph/7dnV1',
       src: 'https://dg0nwpjirsscfc.archive.ph/7dnV1/fb0c9a2d9bc2c6e789af01fa1841f390bfe66b26.webp',
@@ -68,7 +68,7 @@ const entries = [
 
 // Page details
 const pageTitle = 'JVL\'s Law in action'; // The title of the page that shows in the browser tab
-const pageDescription = 'On Feb 29, 2024, Jonathan Last of the Bulwark coined JVL\'s law: Any person or institution not explicitly anti-Trump will become a tool for authoritarianism eventually.'; // The description of the page for search engines
+const pageDescription = 'On Feb 29, 2024, Jonathan Last of the Bulwark coined JVL\'s Law: Any person or institution not explicitly anti-Trump will become a tool for authoritarianism eventually. This site documents the march toward dictatorship.'; // The description of the page for search engines
 const pageAuthor = 'DJ Scruggs'; // Your name
 const showMirrorLinks = false; // Whether to show links to the Wayback Machine and archive.is mirrors.
 
