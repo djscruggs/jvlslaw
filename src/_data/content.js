@@ -7,7 +7,7 @@ const entries = [
     color: 'black',
     faicon: 'skull-crossbones',
     datetime: '2025-09-01 15:15',
-    title: 'Discourse Magazine closes',
+    title: 'Discourse Magazine Closes',
     image: {
       link: 'https://www.tracinskiletter.com/p/dont-let-it-go',
       src: 'https://substackcdn.com/image/fetch/$s_!Yt8m!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa61b176d-0978-41c5-aada-46575fccbe5e_1600x800.jpeg',
@@ -28,7 +28,7 @@ const entries = [
     color: 'black',
     faicon: 'skull-crossbones',
     datetime: '2024-07-01 12:00',
-    title: 'SCOTUS grants presidential immunity',
+    title: 'SCOTUS Grants Sweeping Immunity',
     image: {
       link: 'https://www.scotusblog.com/2024/07/justices-rule-trump-has-some-immunity-from-prosecution/',
       src: 'https://www.scotusblog.com/wp-content/uploads/2024/07/supremecourt2-scaled.jpg?resize=1024,680',
@@ -48,7 +48,7 @@ const entries = [
     color: 'black',
     faicon: 'skull-crossbones',
     datetime: '2024-02-29 12:00',
-    title: 'Mitch McConnell\'s Capitulation',
+    title: 'Mitch McConnell Capitulates',
     image: {
       link: 'https://archive.ph/7dnV1',
       src: 'https://dg0nwpjirsscfc.archive.ph/7dnV1/fb0c9a2d9bc2c6e789af01fa1841f390bfe66b26.webp',
