@@ -67,7 +67,7 @@ const entries = [
 ];
 
 // Page details
-const pageTitle = 'JVL\'s Law in action'; // The title of the page that shows in the browser tab
+const pageTitle = 'JVL\'s Law'; // The title of the page that shows in the browser tab
 const pageDescription = 'On Feb 29, 2024, Jonathan Last of the Bulwark coined JVL\'s Law: Any person or institution not explicitly anti-Trump will become a tool for authoritarianism eventually. This site documents the march toward dictatorship.'; // The description of the page for search engines
 const pageAuthor = 'DJ Scruggs'; // Your name
 const showMirrorLinks = false; // Whether to show links to the Wayback Machine and archive.is mirrors.
