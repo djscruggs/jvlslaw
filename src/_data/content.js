@@ -22,6 +22,26 @@ const entries = [
       },
     ],
   },
+    {
+    id: 'discourse-closes',
+    categories: ['media'],
+    color: 'black',
+    faicon: 'skull-crossbones',
+    datetime: '2024-07-01 12:00',
+    title: 'Justices rule Trump has some immunity from prosecution',
+    image: {
+      link: 'https://www.scotusblog.com/2024/07/justices-rule-trump-has-some-immunity-from-prosecution/',
+      src: 'https://www.scotusblog.com/wp-content/uploads/2024/07/supremecourt2-scaled.jpg?resize=1024,680',
+      alt: 'Picture of the Supreme Court'
+    },
+    body: "Sotomayor contended that the majority’s decision might sweep more broadly than her colleagues acknowledged. First, she argued that the line that Roberts drew between official and unofficial conduct \“narrows the conduct considered ‘unofficial’ almost to a nullity. It says that whenever the President acts in a way that is not manifestly or palpably beyond his authority, he is taking official action.” And the majority takes an “expansive view” of the core powers of the presidency, she continued, that “will effectively insulate all sorts of noncore conduct from criminal prosecution.” “In every use of official power,\” she concluded, \“the President is now a king above the law.\”",
+    links: [
+      {
+        href: 'https://www.scotusblog.com/2024/07/justices-rule-trump-has-some-immunity-from-prosecution/',
+        linkText: 'Justices rule Trump has some immunity from prosecution',
+      },
+    ],
+  },
   {
     id: 'discourse-closes',
     categories: ['media'],
