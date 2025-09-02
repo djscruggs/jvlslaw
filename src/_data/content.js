@@ -23,6 +23,26 @@ const entries = [
     ],
   },
   {
+    id: 'gabbard-fmic',
+    categories: ['politics'],
+    color: 'black',
+    faicon: 'skull-crossbones',
+    date: '2025-08-28',
+    title: 'Gabbard Kills Foreign Malign Influence Center', image: {
+      link: 'https://www.justsecurity.org/119653/wjh-dismantling-foreign-malign-influence-center/',
+      src: 'https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/432879124_928689479263468_6636716747969601018_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=110&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=Tz_e6C0NbewQ7kNvwG4RQia&_nc_oc=Adn6NFx-nTDo_KqFL1BDHFABP2ipVKsBcIMF2Jgh5qMyunja4aNGmjLtzFulEUEi2WMkZYWsfQrfQGUE9QSJK5ir&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GoZ2OMAONYhRaSWoiSnCkg&oh=00_AfWN-CCThtlVJeg-GIFW80BCMc5cM5XxcxiRRznSkif6dg&oe=68BD18DB',
+      alt: 'Just Security Logo',
+    },
+    
+    body: 'One would think the Trump administration would have an interest in preserving government functions that monitor nefarious foreign government activity targeting the president of the United States. Instead, in her Aug. 20 announcement of the broader ODNI reorganization and the dismantlement of FMIC, with its remaining work spread across other units, Gabbard claimed the office had politicized intelligence (a charge she also leveled at the intelligence community when the administration recently declassified materials purporting to support its claim that Russia did not interfere on behalf of Trump’s 2016 campaign). ',
+    links: [
+      {
+        href: 'https://www.justsecurity.org/119653/wjh-dismantling-foreign-malign-influence-center/',
+        linkText: 'Just Security',
+      },
+    ],
+  },
+  {
     id: 'abrego-uganda',
     categories: ['law'],
     color: 'black',
@@ -83,7 +103,7 @@ const entries = [
       },
     ],
   },
-    {
+  {
     id: 'scotus-immunity',
     categories: ['law'],
     color: 'black',
