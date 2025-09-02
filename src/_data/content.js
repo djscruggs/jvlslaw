@@ -22,23 +22,23 @@ const entries = [
       },
     ],
   },
-    {
-    id: 'scotus-immunity',
+  {
+    id: 'scotus-agencies',
     categories: ['law'],
     color: 'black',
     faicon: 'skull-crossbones',
-    datetime: '2024-07-01 12:00',
-    title: 'SCOTUS Grants Sweeping Immunity',
+    datetime: '2025-07-23 12:00',
+    title: 'Independent Agencies Not Independent',
     image: {
-      link: 'https://www.scotusblog.com/2024/07/justices-rule-trump-has-some-immunity-from-prosecution/',
-      src: 'https://www.scotusblog.com/wp-content/uploads/2024/07/supremecourt2-scaled.jpg?resize=1024,680',
-      alt: 'Picture of the Supreme Court'
+      link: 'https://www.scotusblog.com/2025/07/supreme-court-sides-with-trump-administration-in-battle-over-cpsc-commissioners/',
+      src: 'https://thedispatch.com/wp-content/uploads/2025/04/SBTD-logo.png?w=1200',
+      alt: 'Logo for SCOTUSBlog',
     },
-    body: "Sotomayor contended that the majority’s decision might sweep more broadly than her colleagues acknowledged. First, she argued that the line that Roberts drew between official and unofficial conduct \“narrows the conduct considered ‘unofficial’ almost to a nullity. It says that whenever the President acts in a way that is not manifestly or palpably beyond his authority, he is taking official action.” And the majority takes an “expansive view” of the core powers of the presidency, she continued, that “will effectively insulate all sorts of noncore conduct from criminal prosecution.” “In every use of official power,\” she concluded, \“the President is now a king above the law.\”",
+    body: "In her dissent, Kagan decried what she characterized as the court\’s repeated use of the emergency docket \“to destroy the independence of an independent agency, as established by Congress.\” She suggested that the court had \“all but overturned Humphrey’s Executor,\” and she stated that these actions have occurred \“with the scantiest of explanations.\” \“By means of such actions,\” she concluded, \“this Court may facilitate the permanent transfer of authority, piece by piece by piece, from one branch of Government to another.\”  ",
     links: [
       {
-        href: 'https://www.scotusblog.com/2024/07/justices-rule-trump-has-some-immunity-from-prosecution/',
-        linkText: 'Justices rule Trump has some immunity from prosecution',
+        href: 'https://www.scotusblog.com/2025/07/supreme-court-sides-with-trump-administration-in-battle-over-cpsc-commissioners/',
+        linkText: 'Supreme Court sides with Trump administration in battle over ability to remove agency commissioners',
       },
     ],
   },
@@ -63,6 +63,27 @@ const entries = [
       },
     ],
   },
+    {
+    id: 'scotus-immunity',
+    categories: ['law'],
+    color: 'black',
+    faicon: 'skull-crossbones',
+    datetime: '2024-07-01 12:00',
+    title: 'SCOTUS Grants Sweeping Immunity',
+    image: {
+      link: 'https://www.scotusblog.com/2024/07/justices-rule-trump-has-some-immunity-from-prosecution/',
+      src: 'https://www.scotusblog.com/wp-content/uploads/2024/07/supremecourt2-scaled.jpg?resize=1024,680',
+      alt: 'Picture of the Supreme Court'
+    },
+    body: "Sotomayor contended that the majority’s decision might sweep more broadly than her colleagues acknowledged. First, she argued that the line that Roberts drew between official and unofficial conduct \“narrows the conduct considered ‘unofficial’ almost to a nullity. It says that whenever the President acts in a way that is not manifestly or palpably beyond his authority, he is taking official action.” And the majority takes an “expansive view” of the core powers of the presidency, she continued, that “will effectively insulate all sorts of noncore conduct from criminal prosecution.” “In every use of official power,\” she concluded, \“the President is now a king above the law.\”",
+    links: [
+      {
+        href: 'https://www.scotusblog.com/2024/07/justices-rule-trump-has-some-immunity-from-prosecution/',
+        linkText: 'Justices rule Trump has some immunity from prosecution',
+      },
+    ],
+  },
+  
   {
     id: 'mitch-mcconell',
     categories: ['politics'],
