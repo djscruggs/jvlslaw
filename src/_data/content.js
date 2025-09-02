@@ -37,7 +37,7 @@ const entries = [
     body: 'NEW: Kilmar Abrego Garcia’s defense team says that the government is attempting to coerce him to plead guilty to his criminal charges. Per filing, the government promised to deport him to Costa Rica if he pleads guilty — and is now threatening to remove him to Uganda if he doesn’t accept the deal.',
     links: [
       {
-        href: 'https://arc.net/l/quote/gjfvapff',
+        href: 'https://bsky.app/profile/annabower.bsky.social/post/3lx3ayeqsb225',
         linkText: 'Anna Bower on BlueSky',
       },
     ],
