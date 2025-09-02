@@ -23,6 +23,26 @@ const entries = [
     ],
   },
   {
+    id: 'abrego-uganda',
+    categories: ['law'],
+    color: 'black',
+    faicon: 'skull-crossbones',
+    datetime: '2025-07-23 12:00',
+    title: 'DOJ Attempts Coercion With Uganda Threat', 
+    image: {
+      link: 'https://bsky.app/profile/annabower.bsky.social/post/3lx3ayeqsb225',
+      src: 'https://cdn.bsky.app/img/avatar_thumbnail/plain/did:plc:t4x2ruk2qmob2b2cx55h4v7r/bafkreicdapavja5viwr7nsqcawcc2s6ac77fhqeyus4ccgfmcncavrpffe@jpeg',
+      alt: 'Anna Bower profile pic',
+    },
+    body: 'NEW: Kilmar Abrego Garcia’s defense team says that the government is attempting to coerce him to plead guilty to his criminal charges. Per filing, the government promised to deport him to Costa Rica if he pleads guilty — and is now threatening to remove him to Uganda if he doesn’t accept the deal.',
+    links: [
+      {
+        href: 'https://arc.net/l/quote/gjfvapff',
+        linkText: 'Anna Bower on BlueSky',
+      },
+    ],
+  },
+  {
     id: 'scotus-agencies',
     categories: ['law'],
     color: 'black',
