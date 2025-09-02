@@ -105,12 +105,12 @@ const entries = [
   },
   
   {
-    id: 'mitch-mcconell',
+    id: 'mcconell-original-sin',
     categories: ['politics'],
     color: 'black',
     faicon: 'skull-crossbones',
     date: '2024-02-29',
-    title: 'Mitch McConnell Capitulates',
+    title: 'Mitch McConnell\'s Original Sin',
     image: {
       link: 'https://archive.ph/7dnV1',
       src: 'https://dg0nwpjirsscfc.archive.ph/7dnV1/fb0c9a2d9bc2c6e789af01fa1841f390bfe66b26.webp',
