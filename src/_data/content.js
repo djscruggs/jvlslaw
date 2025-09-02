@@ -1,5 +1,23 @@
 const header = 'On Feb 29, 2024, Jonathan Last of the Bulwark coined JVL\'s law: Any person or institution not explicitly anti-Trump will become a tool for authoritarianism eventually.';
 const footer = 'This page is not affiliated with the Bulwark. I\'m just a concerned subscriber.';
+const scotusBlogImage = function(link) {
+  const data = {
+      link: link,
+      src: 'https://thedispatch.com/wp-content/uploads/2025/04/SBTD-logo.png?w=160',
+      alt: 'Logo for SCOTUSBlog',
+    }
+    return data;
+  }
+const bulwarkImage = function(link) {
+  const data = {
+      link: link,
+      src: 'https://dg0nwpjirsscfc.archive.ph/7dnV1/fb0c9a2d9bc2c6e789af01fa1841f390bfe66b26.webp',
+      alt: 'Logo for The Bulwak',
+      caption: 'The Bulwark'
+    }
+  return data;
+    
+  }
 const entries = [
   {
     id: 'discourse-closes',
@@ -32,13 +50,14 @@ const entries = [
       link: 'https://www.justsecurity.org/119653/wjh-dismantling-foreign-malign-influence-center/',
       src: 'https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/432879124_928689479263468_6636716747969601018_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=110&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=Tz_e6C0NbewQ7kNvwG4RQia&_nc_oc=Adn6NFx-nTDo_KqFL1BDHFABP2ipVKsBcIMF2Jgh5qMyunja4aNGmjLtzFulEUEi2WMkZYWsfQrfQGUE9QSJK5ir&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=GoZ2OMAONYhRaSWoiSnCkg&oh=00_AfWN-CCThtlVJeg-GIFW80BCMc5cM5XxcxiRRznSkif6dg&oe=68BD18DB',
       alt: 'Just Security Logo',
+      caption: 'Just Security'
     },
     
     body: 'One would think the Trump administration would have an interest in preserving government functions that monitor nefarious foreign government activity targeting the president of the United States. Instead, in her Aug. 20 announcement of the broader ODNI reorganization and the dismantlement of FMIC, with its remaining work spread across other units, Gabbard claimed the office had politicized intelligence (a charge she also leveled at the intelligence community when the administration recently declassified materials purporting to support its claim that Russia did not interfere on behalf of Trump’s 2016 campaign). ',
     links: [
       {
         href: 'https://www.justsecurity.org/119653/wjh-dismantling-foreign-malign-influence-center/',
-        linkText: 'Just Security',
+        linkText: 'What Just Happened? Dismantling the Intelligence Community’s Foreign Malign Influence Center',
       },
     ],
   },
@@ -69,11 +88,7 @@ const entries = [
     faicon: 'skull-crossbones',
     date: '2025-07-23',
     title: 'Independent Agencies Not Independent',
-    image: {
-      link: 'https://www.scotusblog.com/2025/07/supreme-court-sides-with-trump-administration-in-battle-over-cpsc-commissioners/',
-      src: 'https://thedispatch.com/wp-content/uploads/2025/04/SBTD-logo.png?w=1200',
-      alt: 'Logo for SCOTUSBlog',
-    },
+    image: scotusBlogImage('https://www.scotusblog.com/2025/07/supreme-court-sides-with-trump-administration-in-battle-over-cpsc-commissioners/'),
     body: "In her dissent, Kagan decried what she characterized as the court\’s repeated use of the emergency docket \“to destroy the independence of an independent agency, as established by Congress.\” She suggested that the court had \“all but overturned Humphrey’s Executor,\” and she stated that these actions have occurred \“with the scantiest of explanations.\” \“By means of such actions,\” she concluded, \“this Court may facilitate the permanent transfer of authority, piece by piece by piece, from one branch of Government to another.\”  ",
     links: [
       {
@@ -89,12 +104,7 @@ const entries = [
     faicon: 'skull-crossbones',
     date: '2024-10-25',
     title: 'Jeff Bezos Kills Endorsement',
-    image: {
-      link: 'https://www.thebulwark.com/p/bezos-kills-washington-post-endorsement-guardrails-falling',
-      src: 'https://dg0nwpjirsscfc.archive.ph/7dnV1/fb0c9a2d9bc2c6e789af01fa1841f390bfe66b26.webp',
-      alt: 'Logo the Bulwak',
-      caption: 'The Bulwark',
-    },
+    image: bulwarkImage('https://www.thebulwark.com/p/bezos-kills-washington-post-endorsement-guardrails-falling'),
     body: "And that\’s what this story is about: It\’s about the most consequential American entrepreneur of his generation signaling his submission to Trump—and the message that sends to every other corporation and business leader in the country. In the world. Killing this editorial says, If Jeff Bezos has to be nice to Trump, then so do you. Keep your nose clean, bub.",
     links: [
       {
@@ -110,11 +120,7 @@ const entries = [
     faicon: 'skull-crossbones',
     date: '2024-07-01',
     title: 'SCOTUS Grants Sweeping Immunity',
-    image: {
-      link: 'https://www.scotusblog.com/2024/07/justices-rule-trump-has-some-immunity-from-prosecution/',
-      src: 'https://www.scotusblog.com/wp-content/uploads/2024/07/supremecourt2-scaled.jpg?resize=1024,680',
-      alt: 'Picture of the Supreme Court'
-    },
+    image: scotusBlogImage('https://www.scotusblog.com/2024/07/justices-rule-trump-has-some-immunity-from-prosecution/'),
     body: "Sotomayor contended that the majority’s decision might sweep more broadly than her colleagues acknowledged. First, she argued that the line that Roberts drew between official and unofficial conduct \“narrows the conduct considered ‘unofficial’ almost to a nullity. It says that whenever the President acts in a way that is not manifestly or palpably beyond his authority, he is taking official action.” And the majority takes an “expansive view” of the core powers of the presidency, she continued, that “will effectively insulate all sorts of noncore conduct from criminal prosecution.” “In every use of official power,\” she concluded, \“the President is now a king above the law.\”",
     links: [
       {
