@@ -43,6 +43,27 @@ const entries = [
     ],
   },
   {
+    id: 'wapo-bezos',
+    categories: ['media'],
+    color: 'black',
+    faicon: 'skull-crossbones',
+    datetime: '2024-10-25 12:00',
+    title: 'Jeff Bezos Kills Endorsement',
+    image: {
+      link: 'https://www.thebulwark.com/p/bezos-kills-washington-post-endorsement-guardrails-falling',
+      src: 'https://dg0nwpjirsscfc.archive.ph/7dnV1/fb0c9a2d9bc2c6e789af01fa1841f390bfe66b26.webp',
+      alt: 'Logo the Bulwak',
+      caption: 'The Bulwark',
+    },
+    body: "And that\’s what this story is about: It\’s about the most consequential American entrepreneur of his generation signaling his submission to Trump—and the message that sends to every other corporation and business leader in the country. In the world. Killing this editorial says, If Jeff Bezos has to be nice to Trump, then so do you. Keep your nose clean, bub.",
+    links: [
+      {
+        href: 'https://www.thebulwark.com/p/bezos-kills-washington-post-endorsement-guardrails-falling',
+        linkText: 'The Guardrails Are Already Crumpling',
+      },
+    ],
+  },
+  {
     id: 'mitch-mcconell',
     categories: ['politics'],
     color: 'black',
