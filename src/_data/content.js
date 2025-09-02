@@ -20,6 +20,26 @@ const bulwarkImage = function(link) {
   }
 const entries = [
   {
+    id: 'naturalization-voter-reg',
+    categories: ['politics'],
+    color: 'black',
+    faicon: 'skull-crossbones',
+    date: '2025-09-01',
+    title: 'USCIS Bars Voter Registration After Naturalization Ceremony',
+    image: {
+      link: 'https://www.lwv.org/newsroom/press-releases/league-women-voters-statement-uscis-policy-restricting-voter-registration',
+      src: 'https://www.lwv.org/themes/custom/primary_bootstrap/img/lwv-logo-header-c4.svg',
+      alt: 'Logo for the Leage of Women Voters',
+    },
+    body: "By shutting out the League and other civic partners, USCIS is making it harder for new citizens to register to vote, which is yet another intimidation tactic and attack on the immigrant community. Our democracy is stronger with the voices of new citizens.",
+    links: [
+      {
+        href: 'https://www.lwv.org/newsroom/press-releases/league-women-voters-statement-uscis-policy-restricting-voter-registration',
+        linkText: 'League of Women Voters Statement',
+      },
+    ],
+  },
+  {
     id: 'discourse-closes',
     categories: ['media'],
     color: 'black',
