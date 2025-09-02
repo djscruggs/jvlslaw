@@ -6,7 +6,7 @@ const entries = [
     categories: ['media'],
     color: 'black',
     faicon: 'skull-crossbones',
-    datetime: '2025-09-01 15:15',
+    date: '2025-09-01',
     title: 'Discourse Magazine Closes',
     image: {
       link: 'https://www.tracinskiletter.com/p/dont-let-it-go',
@@ -27,7 +27,7 @@ const entries = [
     categories: ['law'],
     color: 'black',
     faicon: 'skull-crossbones',
-    datetime: '2025-07-23 12:00',
+    date: '2025-08-23',
     title: 'DOJ Attempts Coercion With Uganda Threat', 
     image: {
       link: 'https://bsky.app/profile/annabower.bsky.social/post/3lx3ayeqsb225',
@@ -47,7 +47,7 @@ const entries = [
     categories: ['law'],
     color: 'black',
     faicon: 'skull-crossbones',
-    datetime: '2025-07-23 12:00',
+    date: '2025-07-23',
     title: 'Independent Agencies Not Independent',
     image: {
       link: 'https://www.scotusblog.com/2025/07/supreme-court-sides-with-trump-administration-in-battle-over-cpsc-commissioners/',
@@ -67,7 +67,7 @@ const entries = [
     categories: ['media'],
     color: 'black',
     faicon: 'skull-crossbones',
-    datetime: '2024-10-25 12:00',
+    date: '2024-10-25',
     title: 'Jeff Bezos Kills Endorsement',
     image: {
       link: 'https://www.thebulwark.com/p/bezos-kills-washington-post-endorsement-guardrails-falling',
@@ -88,7 +88,7 @@ const entries = [
     categories: ['law'],
     color: 'black',
     faicon: 'skull-crossbones',
-    datetime: '2024-07-01 12:00',
+    date: '2024-07-01',
     title: 'SCOTUS Grants Sweeping Immunity',
     image: {
       link: 'https://www.scotusblog.com/2024/07/justices-rule-trump-has-some-immunity-from-prosecution/',
@@ -109,7 +109,7 @@ const entries = [
     categories: ['politics'],
     color: 'black',
     faicon: 'skull-crossbones',
-    datetime: '2024-02-29 12:00',
+    date: '2024-02-29',
     title: 'Mitch McConnell Capitulates',
     image: {
       link: 'https://archive.ph/7dnV1',
