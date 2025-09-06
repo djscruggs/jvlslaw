@@ -12,8 +12,17 @@ const bulwarkImage = function(link) {
   const data = {
       link: link,
       src: 'https://dg0nwpjirsscfc.archive.ph/7dnV1/fb0c9a2d9bc2c6e789af01fa1841f390bfe66b26.webp',
-      alt: 'Logo for The Bulwak',
+      alt: 'Logo for The Bulwark',
       caption: 'The Bulwark'
+    }
+  return data;
+    
+  }
+  const apImage = function(link) {
+  const data = {
+      link: link,
+      src: 'https://assets.apnews.com/19/66/bc546486408c8595f01753a9fbeb/ap-logo-176-by-208.svg',
+      alt: 'Logo for Associate Press'
     }
   return data;
     
@@ -98,6 +107,22 @@ const entries = [
       {
         href: 'https://bsky.app/profile/annabower.bsky.social/post/3lx3ayeqsb225',
         linkText: 'Anna Bower on BlueSky',
+      },
+    ],
+  },
+  {
+    id: 'scotus-agencies',
+    categories: ['politics'],
+    color: 'black',
+    faicon: 'skull-crossbones',
+    date: '2025-08-01',
+    title: 'Trump Fires BLS Chief After Terrible Jobs Report',
+    image: apImage('https://apnews.com/article/trump-jobs-firing-f00e9bf96d0110519be9bf4f3ec89195'),
+    body: '"I have directed my Team to fire this Biden Political Appointee, IMMEDIATELY,” Trump said on Truth Social. “She will be replaced with someone much more competent and qualified. Trump later posted: “In my opinion, today’s Jobs Numbers were RIGGED in order to make the Republicans, and ME, look bad." <br /><br />The charge that the data was faked is an explosive one that threatens to undercut the political legitimacy of the U.S. government’s economic data, which has long been seen as the “gold standard” of economic measurement globally.',
+    links: [
+      {
+        href: 'https://apnews.com/article/trump-jobs-firing-f00e9bf96d0110519be9bf4f3ec89195',
+        linkText: 'Trump removes official overseeing jobs data after dismal employment report',
       },
     ],
   },
