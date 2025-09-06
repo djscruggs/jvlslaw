@@ -118,6 +118,26 @@ const entries = [
     ],
   },
   {
+    id: 'wray-resigns',
+    categories: ['politics'],
+    color: 'black',
+    faicon: 'skull-crossbones',
+    date: '2024-12-12',
+    title: 'FBI Director Chris Wray Resigns',
+    image: {
+      link: 'https://www.politico.com/news/magazine/2024/12/12/chris-wrays-abdication-of-leadership-00194002',
+      src: 'https://static.politico.com/68/e1/7ec26dbc49ee9c84cb664c975ba9/politico-cms-small-product-logo.jpg',
+      alt: 'Logo Politico',
+    },
+    body: "When Donald Trump said over Thanksgiving that he was nominating Kash Patel to be FBI director, the announcement sent shudders through official Washington — Patel, besides being simply unqualified for such a big role, has explicitly laid out a retaliatory agenda that would weaponize the FBI against Trump’s foes. But there was one important wrinkle in Trump’s move: The simplest argument against Patel taking over the FBI was that there was no vacancy atop the FBI.",
+    links: [
+      {
+        href: 'https://www.politico.com/news/magazine/2024/12/12/chris-wrays-abdication-of-leadership-00194002',
+        linkText: 'Chris Wray\’s Resignation Is a Terrifying Sign of What’s to Come Under Trump',
+      },
+    ],
+  },
+  {
     id: 'wapo-bezos',
     categories: ['media'],
     color: 'black',
